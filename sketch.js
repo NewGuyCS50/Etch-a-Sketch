@@ -21,7 +21,7 @@ function GridGen (size){
 container.innerHTML = "";
  
 let WidthHeight = (800/size);
-console.log(WidthHeight)
+
 
 let num = 1;
 while (num <= size*size)
