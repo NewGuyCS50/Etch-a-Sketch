@@ -34,10 +34,10 @@ while (num <= size*size)
    div.style.width = `${WidthHeight}px`
    div.style.height = `${WidthHeight}px`
 
-   div.textContent = `div ${num}`
+   
 
    div.addEventListener("mouseenter", ()=> div.style.backgroundColor = "yellow")
-  // div.addEventListener("mouseleave", ()=> div.style.backgroundColor = "skyblue")
+
    num++
 }
 }
