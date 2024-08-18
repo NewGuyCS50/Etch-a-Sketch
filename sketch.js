@@ -29,6 +29,7 @@ while (num <= size*size)
    const div = document.createElement("div")
    container.appendChild(div)
 
+
   
 
    div.style.width = `${WidthHeight}px`
@@ -36,7 +37,8 @@ while (num <= size*size)
 
    
 
-   div.addEventListener("mouseenter", ()=> div.style.backgroundColor = "yellow")
+  
+   div.addEventListener("mouseenter", ()=> div.style.backgroundColor= `rgb(${Math.floor(Math.random() * 255)},${Math.floor(Math.random() * 255)},${Math.floor(Math.random() * 255)})` )
 
    num++
 }
