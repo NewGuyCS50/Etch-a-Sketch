@@ -1,16 +1,38 @@
+body{
+   background-color: rgb(175, 132, 57, 0.397);
+}
+
 #container {
    
     width: 800px;
     height: 800px;
        display: flex;
+       margin: auto;
        flex-wrap: wrap;
+       border: 2px solid black;
+       
 }
 
 #container div{
 
    background-color: white;
-   border: 1px solid brown;
+   
    box-sizing: border-box;
    
-   
 }  
+button {
+   display: inline;
+   box-sizing: border-box;
+   background-color: blueviolet;
+   border: 2px solid saddlebrown;
+   color: rgb(14, 15, 4);
+  
+
+} 
+
+#heading {
+   display: flex;
+   justify-content: center;
+   
+   color: rgb(226, 168, 43);
+}

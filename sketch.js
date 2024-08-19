@@ -27,20 +27,23 @@ let num = 1;
 while (num <= size*size)
 {
    const div = document.createElement("div")
+   
    container.appendChild(div)
-
-
-  
-
+   
    div.style.width = `${WidthHeight}px`
    div.style.height = `${WidthHeight}px`
 
    
 
-  
-   div.addEventListener("mouseenter", ()=> div.style.backgroundColor= `rgb(${Math.floor(Math.random() * 255)},${Math.floor(Math.random() * 255)},${Math.floor(Math.random() * 255)})` )
 
+   
+
+  
+   div.addEventListener("mouseenter", ()=> div.style.backgroundColor= `rgb(${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)})` )
+ 
    num++
 }
 }
+//// FOr our Heading
+const heading = document.querySelector("#heading")
 
